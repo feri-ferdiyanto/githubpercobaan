@@ -1,0 +1,11 @@
+const express = require('express');
+const app = express();
+const port = 808;
+
+app,get('/', (req, res) => {
+  res.send('saya berhasil belajar GitHub');
+});
+
+app,listen(port, () => {
+  console.log(`server berjalan di http://localhost:${port}`);
+});
