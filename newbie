@@ -3,7 +3,7 @@ const app = express();
 const port = 808;
 
 app,get('/', (req, res) => {
-  res.send('saya berhasil belajar GitHub');
+  res.send('saya sudah belajar github');
 });
 
 app,listen(port, () => {
