@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 808;
+const port = 8080;
 
 app,get('/', (req, res) => {
-  res.send('saya sudah belajar github');
+  res.send('saya berhasil belajar github');
 });
 
 app,listen(port, () => {
